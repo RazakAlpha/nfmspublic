@@ -1,0 +1,82 @@
+<amexio-box [border]="'left'" [padding]="true" [align]="'left'" [border-dotted]="true">
+    <amexio-card [footer]="true" [header]="true" [show]="true" [header-align]="'left'" [footer-align]="'right'">
+        <amexio-header>
+            SUMMARY
+        </amexio-header>
+        <amexio-body>
+
+        </amexio-body>
+        <amexio-action>
+
+        </amexio-action>
+    </amexio-card>
+    <amexio-layout-columns [orientation]="'horizontal'" [alignment]="'space-around'" [border]="true" [fit]="true">
+        <amexio-layout-item>
+            <amexio-card [footer]="true" [header]="true" [show]="true" [header-align]="'left'" [footer-align]="'right'">
+                <amexio-header>
+                    Members
+                </amexio-header>
+                <amexio-body>
+                    <amexio-button [label]="'Register Member'" [icon]="'fa fa-user-plus'" [type]="'green'" [tooltip]="'Add New Member'" [block]="true" [size]="'large'" [form-bind]="'btnRegister'">
+                    </amexio-button>
+                    <amexio-button [label]="'Registered Members'" [icon]="'fa fa-users'" [type]="'yellow'" [tooltip]="'List Members'" [block]="true" [size]="'large'" [form-bind]="'btnListMembers'">
+                    </amexio-button>
+                    <amexio-button [label]="'Edit Member Info'" [icon]="'fa fa-edit'" [type]="'red'" [tooltip]="'Edit Member'" [block]="true" [size]="'large'" [form-bind]="'btnEditMember'">
+                    </amexio-button>
+                    <amexio-column size="6">
+                        <amexio-button [label]="'Districts/Zones'" [type]="'theme-color'" [tooltip]="'button'" [size]="'small'" [form-bind]="'btnDistricts'">
+                        </amexio-button>
+                        <amexio-button [label]="'Units'" [type]="'theme-color'" [tooltip]="'Groupings'" [size]="'small'" [form-bind]="'btnUnits'">
+                        </amexio-button>
+                        <amexio-button [label]="'Banks'" [icon]="'fa fa-bank'" [type]="'theme-color'" [tooltip]="'Banking Info'" [size]="'small'" [form-bind]="'btnBanks'">
+                        </amexio-button>
+                    </amexio-column>
+                    <amexio-button [label]="'Unit Heads'" [icon]="'fa fa-user-secret'" [type]="'theme-color'" [tooltip]="'Head of Member Unit'" [size]="'small'" [form-bind]="'btnUnitHead'">
+                    </amexio-button>
+
+                </amexio-body>
+                <amexio-action>
+
+                </amexio-action>
+            </amexio-card>
+        </amexio-layout-item>
+        <amexio-layout-item>
+            <amexio-card [footer]="true" [header]="true" [show]="true" [header-align]="'left'" [footer-align]="'right'">
+                <amexio-header>
+                    Loans
+                </amexio-header>
+                <amexio-body>
+                    <amexio-button [label]="'Loan Setup'" [icon]="'fa fa-money'" [type]="'green'" [tooltip]="'Request Loan'" [block]="true" [size]="'large'" [form-bind]="'btnLoanSetup'">
+                    </amexio-button>
+                    <amexio-button [label]="'Disburse Loan'" [icon]="'fa fa-send'" [type]="'yellow'" [tooltip]="'Disburse requested loan'" [block]="true" [size]="'large'" [form-bind]="'btnDisburseLoan'">
+                    </amexio-button>
+                    <amexio-button [label]="'Pay Loan'" [icon]="'fa fa-paypal'" [type]="'green'" [tooltip]="'Repay Pending Loan'" [block]="true" [size]="'large'" [form-bind]="'btnPayLoan'">
+                    </amexio-button>
+                    <amexio-button [label]="'Loan Repayment Plan'" [icon]="'fa fa-calendar'" [type]="'red'" [tooltip]="'Payment Schedules'" [block]="true" [size]="'large'" [form-bind]="'btnPaymentPlan'">
+                    </amexio-button>
+                    <amexio-button [label]="'Over Deductions'" [type]="'theme-color'" [tooltip]="'button'" [size]="'large'" [form-bind]="'btnOverDeducation'">
+                    </amexio-button>
+                    <amexio-button [label]="'Loan Monitor'" [icon]="'fa fa-flag-checkered'" [type]="'green'" [tooltip]="'Monitor the progress of loans'" [size]="'large'" [form-bind]="'btnLoanMonitor'">
+                    </amexio-button>
+
+                </amexio-body>
+                <amexio-action>
+
+                </amexio-action>
+            </amexio-card>
+        </amexio-layout-item>
+        <amexio-layout-item>
+            <amexio-card [footer]="true" [header]="true" [show]="true" [header-align]="'left'" [footer-align]="'right'">
+                <amexio-header>
+                    Savings
+                </amexio-header>
+                <amexio-body>
+
+                </amexio-body>
+                <amexio-action>
+
+                </amexio-action>
+            </amexio-card>
+        </amexio-layout-item>
+    </amexio-layout-columns>
+</amexio-box>
